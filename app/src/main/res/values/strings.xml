@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Testownik</string>
+    <string name="tittle">Testownik</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_settings">Ustawienia</string>
+    <string name="button_author">O autorze</string>
+    <string name="button_exit">Wyjście</string>
+    <string name="button_return">Powrót</string>
+    <string name="button_save">Zapisz ustawienia</string>
+    <string name="contact">Skontaktuj się!</string>
+
+    <string name="settings_normal_number">Ilość wystąpień każdego pytania</string>
+    <string name="settings_wrong_number">Powtórz, w przypadku złej odpowiedzi</string>
+    <string name="settings_sounds_on">Wyłącz dźwięk</string>
+    <string name="settings_sounds_off">Włącz dźwięk</string>
+    <string name="settings_nightMode_on">Wyłącz tryb nocny</string>
+    <string name="settings_nightMode_off">Włącz tryb nocny</string>
+
+    <string name="start_select">Wybierz bazę pytań</string>
+    <string name="start_download">Pobierz</string>
+    <string name="start_add">Stwórz nową bazę</string>
+    <string name="start_edit">Zarządzaj</string>
+
+    <string name="chooser_title1">Wyślij E-mail...</string>
+
+
+    <string name="email">ksadow.jr@gmail.com</string>
+    <string name="author">Ta aplikacja została stworzona przez: \n\nKarola Sadowskiego \nDawida Jończyka \n\nw celu zgłoszenia błędów aplikacji proszę się kontaktować ;)</string>
+
+    <string-array name="settings_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

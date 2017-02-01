@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_author"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.master.testownik13.Author">
+
+    <TextView
+        android:text="@string/author"
+        android:id="@+id/Author"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="?android:textColorSecondaryInverse"/>
+
+    <Button
+        android:text="@string/button_return"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:onClick="onClick_return"
+        style="@style/Button"
+        android:background="?attr/colorButtonNormal"
+        android:textColor="?android:attr/textColorPrimaryInverse" />
+
+    <Button
+        android:text="@string/contact"
+        android:layout_above="@+id/button"
+        android:id="@+id/button2"
+        android:onClick="onClick_contact"
+        style="@style/Button"
+        android:background="?attr/colorButtonNormal"
+        android:textColor="?android:attr/textColorPrimaryInverse" />
+</RelativeLayout>
